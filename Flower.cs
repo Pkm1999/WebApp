@@ -22,5 +22,10 @@ namespace MySqlConnectivity.Models
         {
             return "Id : "+Id+" Name : "+Name+" Color : "+Color;
         }
+
+        public void show()
+        {
+            Console.WriteLine("Flowers details");
+        }
     }
 }
